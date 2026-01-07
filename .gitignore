@@ -1,6 +1,5 @@
 .venv/
 .env
-*.csv
 *.npy
 *.egg-info/
 .ipynb_checkpoints/
