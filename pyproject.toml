@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thematic-alignment"
+version = "0.1.0"
+description = "Quantifying alignment between journal's Aim & Scope and published articles in the same journal"
+authors = [{name = "Miad Alavinezhad"}]
+dependencies = [
+    "requests",
+    "pandas",
+    "numpy",
+    "tqdm",
+    "matplotlib",
+    "sentence-transformers",
+]
+
+[tool.setuptools.packages.find]
+include = ["thematic_alignment"]
